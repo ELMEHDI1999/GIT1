@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+main div h2 {
+  margin-bottom: 45px;
+  font-size: 45px;
+  text-align: center;
+}
+main .cart {
+  padding: 15px 30px;
+}
+main div .cart {
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  width: 650px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+main div .cart .imgCircle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgb(0, 162, 255);
+  margin: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+main div .cart .imgCircle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: -6px;
+}
+main div .cart #author {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+main div .cart #job {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: aqua;
+}
+main div .cart .info {
+  width: 75%;
+  margin: 15px auto;
+  line-height: 1.8rem;
+  font-size: 18px;
+}
+main div .cart a {
+  font-size: 30px;
+  padding-right: 22px;
+  color: hsl(205, 90%, 76%);
+}
+main div .cart .random {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  display: block;
+}

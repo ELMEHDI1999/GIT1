@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  background-color: blanchedalmond;
+  position: relative;
+}
+.header .vd {
+  width: 100%;
+  height: 100%;
+}
+.header .container-play {
+  position: absolute;
+  bottom: 35px;
+  left: 60px;
+  background-color: white;
+  padding: 7px 0;
+  width: 130px;
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+}
+.header .container-play .item {
+  cursor: pointer;
+}
+.header .container-play .slide {
+  position: absolute;
+  width: 50%;
+  background-color: blue;
+  right: 50%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  transition: all 0.4s ease;
+}

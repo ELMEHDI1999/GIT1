@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(210, 36%, 96%);
+}
+.container {
+  width: 60vw;
+  margin: 0 auto;
+  max-width: 40vw;
+  height: auto;
+  background-color: white;
+  padding: 15px 15px;
+  margin-top: 8rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.container .add {
+  margin-bottom: 15px;
+}
+.container .alert {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.container .alert.exist {
+  color: green;
+}
+.container .alert.notexist {
+  color: red;
+}
+.container .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 25px;
+  place-items: center;
+  margin-bottom: 15px;
+}
+.item .icon button {
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+.item .icon .edit {
+  color: green;
+}
+.item .icon .delete {
+  color: red;
+}
+#clear {
+  text-align: center;
+  border-color: transparent;
+  background-color: transparent;
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 5px 5px;
+  font-size: 20px;
+  display: none;
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+.add h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+#submit input {
+  width: 60%;
+  padding: 5px 5px;
+  background: hsl(210, 36%, 96%);
+  border-color: transparent;
+  outline: none;
+}
+#submit button {
+  padding: 0 15px;
+  background: hsl(205, 86%, 81%);
+  border-color: transparent;
+  cursor: pointer;
+}
+.container .item-clear {
+  display: flex;
+  justify-content: center;
+}

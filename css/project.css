@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  height: 55px;
+  background-color: #158189;
+  place-items: center;
+  padding: 8px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+header h1 {
+  float: left;
+}
+header h2 {
+  float: right;
+}
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80vh;
+}
+main div p {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+main div a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: aqua;
+  padding: 10px 20px;
+  outline: none;
+  color: rgb(184, 42, 42);
+  font-weight: bold;
+}

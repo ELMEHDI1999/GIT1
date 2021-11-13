@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blanchedalmond;
+}
+.header {
+  padding: 35px 0;
+}
+.header .child {
+  max-width: 1000px;
+  margin: auto;
+}
+.caption {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.caption h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.caption p {
+  font-size: 20px;
+}
+.flipe-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.flipe-container .image-container img {
+  width: 100%;
+  height: 100%;
+}
+.flip-text {
+  height: 100%;
+  background-color: hsl(212, 33%, 89%);
+}
+.flip-text .link {
+  height: 20%;
+}
+.flip-text .link ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  height: 100%;
+}
+.flip-text .link ul li {
+  text-align: center;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.flip-text .link ul li.active {
+  background-color: white;
+  color: black;
+}
+.flip-text .refLink {
+  height: 80%;
+  padding: 15px 15px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.2s ease-in-out;
+}
+.flip-text .refLink .reflText {
+  font-size: 16px;
+  line-height: 1.6em;
+}

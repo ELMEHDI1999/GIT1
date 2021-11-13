@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.parent .childParent {
+  width: 560px;
+  background-color: turquoise;
+  padding: 15px 15px;
+  text-align: center;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.parent .childParent h3 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.parent .childParent a {
+  text-decoration: none;
+  background-color: thistle;
+  padding: 15px 25px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 10px;
+}
+.parent .over {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -10;
+  height: 100%;
+  background: rgba(73, 166, 233, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+.parent .over.show {
+  visibility: visible;
+  z-index: 10;
+}
+.parent .over .modal {
+  position: relative;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  width: 560px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+.parent .modal h2 {
+  font-size: 35px;
+}
+.parent .over .modal #bars {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 35px;
+  color: red;
+  cursor: pointer;
+}
